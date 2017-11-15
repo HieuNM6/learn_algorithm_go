@@ -11,6 +11,10 @@ func IncreaseSubSequence(input []int) [][]int {
 		return [][]int{input}
 	}
 
+	if len(input) == 2 {
+		return [][]int{{input[0]}, {input[1]}}
+	}
+
 	counter := 1
 	m := make(map[int][][]int)
 	start, stop := 0, 0

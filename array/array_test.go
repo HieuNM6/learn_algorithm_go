@@ -21,8 +21,8 @@ func TestIncreaseSubSequence(t *testing.T) {
 		},
 		{
 			"Case 2",
-			args{[]int{2, 3}},
-			[][]int{{2, 3}},
+			args{[]int{3, 2}},
+			[][]int{{3}, {2}},
 		},
 		{
 			"Case 3",
